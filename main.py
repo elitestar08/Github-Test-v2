@@ -1,3 +1,5 @@
 import pandas as pd
 
-print("this is a test.")
+df = pd.read_csv('test.csv')
+print(df)
+#print("this is a test.")
